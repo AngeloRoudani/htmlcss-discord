@@ -44,13 +44,13 @@ body {
     background-color: rgb(17, 192, 177);
 }*/
 
-.footer_down {
+/*.footer_down {
     background-color: aquamarine;
-}
+}*/
 
-.logo1, .bottone {
+/*.logo1, .bottone {
     background-color: rgb(253, 170, 205);
-}
+}*/
 /*fine regole debug*/
 
 .container {
@@ -240,6 +240,7 @@ body {
 .quadrato button {
     background-color: rgb(114, 137, 218);
     color: white;
+    margin-bottom: 30px;
 }
 
 .footer_up {
@@ -314,12 +315,22 @@ body {
     height: 400px;
 }
 
+hr {
+    width: 60%;
+    margin: auto;
+    color: lightgrey;
+}
+
+#hardrule {
+    background-color:rgb(37, 37, 37) ;
+}
+
 .footer_bottom {
     background-color: rgb(37, 37, 37);
     height: 60px;
-    margin-top: 1px;
     justify-content: center;
     align-items: flex-end;
+    margin-top: ;
 }
 
 .footer_down {
@@ -334,4 +345,9 @@ body {
     display:inline-block;
     padding: 4px;
 
+}
+
+.bottone button {
+    background-color: rgb(114, 137, 218);
+    color: white;
 }
