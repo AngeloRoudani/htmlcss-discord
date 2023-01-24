@@ -272,7 +272,9 @@ body {
 
 .icone i {
     color: white;
-    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
 }
 
 .lingua {
