@@ -7,7 +7,7 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-/*debug*/
+/*inizio regole debug*/
 .bordi {
     border: dashed 2px black;
 }
@@ -20,9 +20,9 @@ body {
     background-color: blue;
 }*/
 
-.descrizione {
+/*.descrizione {
     background-color: rgb(248, 130, 232);
-}
+}*/
 
 .immagine {
     background-color: rgb(40, 123, 247);
@@ -51,7 +51,7 @@ body {
 .logo1, .bottone {
     background-color: rgb(253, 170, 205);
 }
-/*debug*/
+/*fine regole debug*/
 
 .container {
     display: flex;
@@ -83,8 +83,9 @@ body {
 }
 
 .pulsanti { 
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px;
+    border-style: none;
 }
 
 .login .pulsanti {
@@ -107,8 +108,11 @@ body {
     font-size: 14px;
  }
 
-.bottom {
-    min-height: 400px;
+.header_bottom {
+    min-height: 600px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    color: white;
 }
 
 .descrizione {
@@ -116,7 +120,37 @@ body {
     min-height: 300px;
     text-align: center;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 100px;
+}
+
+.descrizione h1 {
+    margin: 20px auto;
+    font-size: 50px;
+}
+
+.descrizione p {
+    margin: 30px auto 10px auto ;
+    text-align: center;
+    width: 70%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.download::before {
+    content: '\21D3';
+}
+
+.descrizione .pulsanti {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px 20px;
+    padding: 15px;
+}
+
+.descrizione .pulsanti:last-child {
+    background-color: black;
+    color: white;
 }
 
 .primo {
