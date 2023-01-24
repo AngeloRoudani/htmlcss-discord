@@ -24,13 +24,13 @@ body {
     background-color: rgb(248, 130, 232);
 }*/
 
-.immagine {
+/*.immagine {
     background-color: rgb(40, 123, 247);
 }
 
 .testo {
     background-color: pink;
-}
+}*/
 
 .quadrato {
     background-color: green;
@@ -156,6 +156,24 @@ body {
 .primo {
     min-height: 500 px;
     background-color: white;
+    margin-bottom: 100px;
+}
+
+
+.testo h2 {
+    text-align: left;
+    padding-top: 40px;
+    font-size: 40px;
+    padding-right: 120px;
+    margin-bottom: 30px;
+}
+
+.testo p {
+    text-align: left;
+    font-size:  16px;
+    font-weight: 500px;
+    padding-right: 120px;
+    line-height: 26px;
 }
 
 .secondo {
