@@ -86,6 +86,9 @@ body {
     border-radius: 20px;
     padding: 5px;
     border-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px
 }
 
 .login .pulsanti {
@@ -137,15 +140,12 @@ body {
     line-height: 30px;
 }
 
-.download::before {
+.mac::before {
     content: '\21D3';
 }
 
 .descrizione .pulsanti {
-    font-size: 14px;
-    font-weight: 600;
     margin: 20px 20px;
-    padding: 15px;
 }
 
 .descrizione .pulsanti:last-child {
@@ -159,34 +159,37 @@ body {
     margin-bottom: 100px;
 }
 
-.
-
-
-.testo h2 {
-    text-align: left;
+.titoli {
     padding-top: 40px;
     font-size: 40px;
     padding-right: 120px;
     margin-bottom: 30px;
 }
 
-.testo p {
-    text-align: left;
+.words {
     font-size:  16px;
-    font-weight: 500px;
+    font-weight: 500;
     padding-right: 120px;
     line-height: 26px;
 }
 
+.testo h2 {
+    text-align: left;
+}
+
+.testo p {
+    text-align: left;
+}
+
 .secondo {
     min-height: 700 px;
-    background-color: lightgrey;
+    background-color: rgb(245, 245, 245);
     margin;
 }
 
 .terzo {
-    min-height: 800px;
-    background-color: lightgrey;
+    min-height: 1000px;
+    background-color: rgb(245, 245, 245);
     padding-top: 50px;
 }
 
@@ -222,6 +225,21 @@ body {
     height: 700px;
     text-align: center;
     margin: auto;
+}
+
+.quadrato h4 {
+    width: 40%;
+    height: 40px;
+    margin: 50px auto;
+    text-align: center;
+    background-image: url('../img/stars.svg');
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.quadrato button {
+    background-color: rgb(114, 137, 218);
+    color: white;
 }
 
 .footer_up {
