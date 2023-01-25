@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    display: flex;
+}
+
+.top {
+    background-color: rgb(37, 93, 231);
+    min-height: 60px;
+    justify-content: center ;
+    align-items: center;
+}
+
+
+.links{
+    width: 60%;
+    justify-content: space-between;
+    height: 30px;
+    align-content: center;
+    align-items: stretch;
+}
+
+.logo, .login {
+    width: calc(100% / 4)
+}
+
+.login {
+    text-align: right;
+}
+
+.pulsanti { 
+    border-radius: 20px;
+    padding: 5px;
+    border-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px
+}
+
+.login a .pulsanti {
+    background-color: white;
+    color: black;
+}
+
+.link {
+    width: calc(100% / 2);
+    text-align: center;
+    align-self: center;
+}
+.link ul {
+    list-style: none;
+}
+ .navigatore a li {
+    display: inline;
+    padding: 10px;
+    font-size: 14px;
+ }
+
+.onda {
+    opacity: 0.04 ;
+}
+
+ a {
+    text-decoration: none;
+    color: white;
+ }
+
+.header_bottom {
+    min-height: 600px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    color: white;
+}
+
+.descrizione {
+    width: 50%;
+    min-height: 300px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.descrizione h1 {
+    margin: 20px auto;
+    font-size: 50px;
+}
+
+.descrizione p {
+    margin: 30px auto 10px auto ;
+    text-align: center;
+    width: 70%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.mac::before {
+    content: '\21D3';
+}
+
+.descrizione .pulsanti {
+    margin: 20px 20px;
+}
+
+.descrizione .pulsanti:last-child {
+    background-color: black;
+    color: white;
+}
+
+.primo {
+    min-height: 500 px;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.titoli {
+    padding-top: 40px;
+    font-size: 40px;
+    padding-right: 120px;
+    margin-bottom: 30px;
+}
+
+.words {
+    font-size:  16px;
+    font-weight: 500;
+    padding-right: 120px;
+    line-height: 26px;
+}
+
+.testo h2 {
+    text-align: left;
+}
+
+.testo p {
+    text-align: left;
+}
+
+.secondo {
+    min-height: 700 px;
+    background-color: rgb(245, 245, 245);
+    margin;
+}
+
+.terzo {
+    min-height: 1000px;
+    background-color: rgb(245, 245, 245);
+    padding-top: 50px;
+}
+
+.strumenti {
+    width: 60%;
+    margin: 60px auto;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.strumenti2 {
+    width: 60%;
+    margin: 0 auto 60px  auto;
+    min-height: 700px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.immagine {
+    width: 60%;
+    /*height: 350px;*/
+}
+
+.testo {
+    width: 40%;
+    /*height: 350px;*/
+}
+
+.quadrato {
+    width: 60%;
+    height: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+.quadrato h4 {
+    width: 40%;
+    height: 40px;
+    margin: 50px auto;
+    text-align: center;
+    background-image: url('../img/stars.svg');
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.quadrato button {
+    background-color: rgb(114, 137, 218);
+    color: white;
+    margin-bottom: 30px;
+}
+
+.footer_up {
+    background-color: rgb(37, 37, 37);
+    min-height: 500px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.footer_top{
+    width: 60%;
+    align-content: center;
+    padding-top: 50px;
+}
+
+.liste, .lista {
+    list-style: none;
+}
+
+.intestazione {
+    color: rgb(114, 137, 218);
+}
+
+.lista h2 {
+    font-size: 35px;
+    text-align: left;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.icone i {
+    color: white;
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.lingua {
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+}
+
+.lingua::after {
+    content: '\02C5';
+    font-size: 16px;
+    vertical-align: bottom;
+}
+
+.testuale {
+    color: white;
+}
+
+#bandiera {
+    width: 15px;
+    height: 10px;
+}
+
+.liste {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.alfa {
+    width: calc(100% / 3);
+    height: 400px;
+}
+
+.beta {
+    width: calc(100% / 6);
+    height: 400px;
+}
+
+hr {
+    width: 60%;
+    margin: auto;
+    color: lightgrey;
+}
+
+#hardrule {
+    background-color:rgb(37, 37, 37) ;
+}
+
+.footer_bottom {
+    background-color: rgb(37, 37, 37);
+    height: 60px;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: ;
+}
+
+.footer_down {
+    height: 50px;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1, .bottone {
+    min-height: 20px;
+    display:inline-block;
+    padding: 4px;
+
+}
+
+.bottone button {
+    background-color: rgb(114, 137, 218);
+    color: white;
+}
